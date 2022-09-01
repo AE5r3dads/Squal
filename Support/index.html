@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.https://ae5r3dads.github.io/Squal/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Support</title>
@@ -25,7 +26,7 @@
                 <i class="fa fa-twitter fa-fw"></i> Login with Twitter
               </a>
               <a href="#" class="google btn">
-                <i class="fa fa-google fa-fw"></i> Login with Google+
+                <i class="fa fa-google fa-fw"></i> Login with Google
               </a>
             </div>
       
@@ -34,8 +35,8 @@
                 <p>Or sign in manually:</p>
               </div>
       
-              <input type="text"  placeholder="Username">
-              <input type="password"  placeholder="Password">
+              <input type="text"  placeholder="Username" required>
+              <input type="password"  placeholder="Password" required>
               <a href="../index.html"><input type="submit" value="Login"></a>
             </div>
       
@@ -54,5 +55,6 @@
         </div>
       </div>
 </body>
-
+<script src="main.js"></script>
 </html>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
