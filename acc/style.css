@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    font-family: sans-serif;
+}
+header {
+    margin-bottom: 100px;
+    background-color: #3d4a59;
+    color: #fff;
+    border-radius: 50px 50px 60px;
+}
+
+header h1 {
+    margin-bottom: 40px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.parent button{
+    background-color: rgb(165, 10, 69);
+    color: white;
+    size: 900px;
+}
+
+.parent li a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+/*         Hover            */
+.parent li a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(206, 5, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.mode:hover {
+    color: #000;
+    border: 2px solid #000;
+    background-color: white;
+    font-size: 20px;
+    transition: 0.6s ;
+
+}
+
+article h5:hover {
+    background-color: #222;
+    color: white;
+    font-size: 32px;
+    transition: 0.6s;
+}
+
+.yt:hover{
+    font-size: 26px;
+    transition: 0.6s;
+}
+
+.twi:hover{
+    font-size: 26px;
+    transition: 0.6s;
+}
+    /*              End Hover           */
+li {
+    list-style-type: none;
+}
+
+.mode {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #3d4a59;
+
+    color: #fff;
+
+    padding: 15px;
+}
+
+.my-img {
+    /* border-radius 50% */
+    border-radius: 50%;
+    width: 150px;
+
+    border-right: 2px solid gold;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+
+article h5{
+    font-size: 29px;
+    font-weight: 500;
+    font-family: 'Sacramento', cursive;
+    margin-top: 10px;
+    cursor: context-menu;
+}
+
+.left-section h3 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.left-section p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+
+.twi {
+    background-color: rgb(29 , 161, 242);
+    color: #fff;
+    margin: 10px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.yt {
+    background-color: red;
+    color: #fff;
+    margin: 10px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 100px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+
+width: 97%;
+
+margin-left: auto;
+margin-right: auto;
+border-radius: 13px;
+
+padding: 20px 0;
+}
+
+/* nem */
+.thr{
+    background-color: rgb(255, 0, 64);
+    width: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.tow{
+    background-color: rgb(255, 0, 64);
+    width: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.one{
+    background-color: rgb(255, 0, 64);
+    width: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* end nem */
+
+.left-section, .right-section {
+    width: 49%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.flex {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.foterp {
+    background-color: #3d4a59;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.foterp a{
+    text-decoration: none;
+    border: 2px solid aqua;
+    height: 10px;
+    width: 12px;
+    color: #fff;
+    align-items: center;
+}
+
+.foterp a:hover{
+    background: white;
+    color: #000;
+    border: 9px solid rgb(255, 187, 0);
+    font-size: 20px;
+    transform: translate(0.6s solid red);
+    transition: 0.6s;
+}
+
+.dark header {
+    background-color: rgba(20, 20, 20, 0.08);
+    border-bottom: 1px solid antiquewhite;
+}
+
+.dark header h1 {
+    background-color: rgba(20, 20, 20, 0.08);
+}
+
+.dark {
+    background-color: #222;
+    color: #fff;
+}
+
+
+.dark main h1{
+    background-color: #9e4673;
+}
+
+
+.dark .foterp {
+    background-color: #111;
+}
+
+
+/* ad */
