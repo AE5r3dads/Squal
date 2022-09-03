@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "273798215137",
+    "firebase_url": "https://squal0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "squal0",
+    "storage_bucket": "squal0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273798215137:android:57482a26ef67c9b991cea0",
+        "android_client_info": {
+          "package_name": "com.squal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273798215137-sepq3m992smbch6kj3qk18n96c817kcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuX2CXEcYzmjviJPIigTb6229mLqUGKNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273798215137-sepq3m992smbch6kj3qk18n96c817kcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
