@@ -268,6 +268,15 @@ footer {
     background-color: #111;
 }
 
+.dark .adh {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid aquamarine;
+    width: 13px;
+    text-align: center;
+    cursor: pointer;
+}
 
 /* scrollbar */
 ::-webkit-scrollbar {
