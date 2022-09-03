@@ -5,6 +5,8 @@
 
 
     font-family: sans-serif;
+
+    transition: 0.6s;
 }
 header {
     margin-bottom: 100px;
