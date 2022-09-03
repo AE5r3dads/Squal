@@ -17,6 +17,7 @@
     margin-right: auto;
     box-shadow: 50px;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .selc {
@@ -33,16 +34,32 @@
 
 .user a{
     align-items: center;
+
     justify-content: center;
+
     size: 50px;
+
     font-size: 18px;
+
     display: flex;
+
     margin-left: auto;
+
     margin-right: auto;
+
     box-shadow: 50px;
+
     color: #b10b0b;
+
     cursor: pointer;
+
     text-decoration: none;
+
+    margin-top: 20px;
+
+    width: 98px;
+
+
 }
 
 /* hover */
@@ -52,3 +69,67 @@
     color: #00ff0d;
     font-family: sans-serif;
 }
+
+.container{
+    width: 1600px;
+    margin: auto;
+  }
+  
+  .subcontainer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  #cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+  }
+  
+  .cookies{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .cookies a{
+    text-decoration: none;
+    font-weight: 500;
+    color: yellow;
+  }
+  
+  #cookies-btn{
+    border-radius: 5px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+  }
+  
+  @media(max-width:1600px){
+    .container{
+      width: 100%;
+    }
+  }
+  
+  @media(max-width:1024px){
+    .cookies{
+      padding: 10px 0;
+    }
+  }
+  
+  @media(max-width:768px){
+    #cookies-btn{
+      width: 100%;
+    }
+  }

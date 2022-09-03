@@ -6,37 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.https://ae5r3dads.github.io/Squal/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59d717c910.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Support</title>
 </head>
 <body>
-    <div class="container">
-        <form action="../index.html">
-          <div class="row">
-            <h2 style="text-align:center">Login with Social Media or Manually</h2>
-            <div class="vl">
-            </div>
-      
-            <div class="col">
-              
-      
-            <div class="col">
-              <div class="hide-md-lg">
-                <p>Or sign in manually:</p>
-              </div>
-      
-              <input type="email"  placeholder="Email" required>
-              <input type="password"  placeholder="Password" required>
-              <a href="../index.html"><input type="submit" value="Login"></a>
-            </div>
-      
-          </div>
-        </form>
-      </div>
-      
+  <form id="myForm" class="myForm" action="">
+    <h1>LogIn Now !</h1>
+    <input type="email" placeholder="E-mail">
+    <i id="icon" class="far fa-eye"></i>
+    <input id="password" type="password" placeholder="Password">
+    <button type="submit"><i class="fab fa-telegram-plane"></i> SUBMIT</button>
+  </form>
+
       <div class="bottom-container">
         <div class="row">
           <div class="col">
+            <a href="../signup with google/index.html" class="google btn">
+              <i class="fa fa-google fa-fw" aria-hidden="true"></i> Sign Up  with Google
+            </a>
             <a href="../signup/index.html" style="color:white" class="btn">Sign up</a>
           </div>
           <div class="col">
@@ -46,5 +34,6 @@
       </div>
 </body>
 <script src="main.js"></script>
+<script src="script.js"></script>
 </html>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
