@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>273798215137-l2etcovkf34j7c1s2bhrdum7pc5igrca.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.273798215137-l2etcovkf34j7c1s2bhrdum7pc5igrca</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZ3Cy9-vzMZTp5yAse1qRMdWtiGZBicqY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>273798215137</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Squal0.com</string>
+	<key>PROJECT_ID</key>
+	<string>squal0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>squal0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:273798215137:ios:d01a2a40250e4e4791cea0</string>
+	<key>DATABASE_URL</key>
+	<string>https://squal0-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
