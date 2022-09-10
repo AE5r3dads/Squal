@@ -79,6 +79,14 @@ article h5:hover {
     transition: 0.6s;
     color: orangered;
 }
+
+
+.css3:hover {
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+    color: royalblue;
+}
     /*              End Hover           */
 li {
     list-style-type: none;
@@ -88,6 +96,13 @@ li {
     text-decoration: none;
     color: black;
     background-color: orangered;
+}
+
+.css3{
+    text-decoration: none;
+    color: black;
+    background-color: royalblue; 
+    width: 100px;
 }
 
 .mode {
@@ -268,6 +283,15 @@ footer {
     background-color: #111;
 }
 
+.dark .adh {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid aquamarine;
+    width: 13px;
+    text-align: center;
+    cursor: pointer;
+}
 
 /* scrollbar */
 ::-webkit-scrollbar {
@@ -291,8 +315,4 @@ footer {
    
   /* for Firefox */
    html {scrollbar-color: #9e4673 #3d4a59;} 
-
-
 /* ad */
-
-
