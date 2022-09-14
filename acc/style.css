@@ -74,7 +74,7 @@ article h5:hover {
 }
 
 .html5:hover {
-    font-size: 30px;
+    font-size: 19px;
     cursor: pointer;
     transition: 0.6s;
     color: orangered;
@@ -82,7 +82,7 @@ article h5:hover {
 
 
 .css3:hover {
-    font-size: 30px;
+    font-size: 19px;
     cursor: pointer;
     transition: 0.6s;
     color: royalblue;
@@ -102,6 +102,7 @@ li {
     text-decoration: none;
     color: black;
     background-color: royalblue; 
+    color: royalblue;
     width: 100px;
 }
 
